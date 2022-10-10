@@ -1,3 +1,14 @@
+h1 {
+  text-align: center;
+  background-color: lightseagreen;
+  font-family: "Brush Script MT", cursive;
+  font-size: 90px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 10px 18px 10px 18px;
+}
+
 body {
   background: #eee;
   margin: 0;
@@ -15,6 +26,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 999;
+  text-align: center;
 }
 
 ul {
@@ -23,19 +35,18 @@ ul {
 }
 
 li {
-  color: #fff;
   display: inline-block;
   font-family: "Oxygen", sans-serif;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 2px;
   margin: 0;
-  padding: 20px 18px 10px 18px;
+  padding: 10px 18px 10px 18px;
   text-transform: uppercase;
 }
 
 .active {
-  color: #88ccf1;
+  color: aquamarine;
 }
 
 /* Table */
@@ -45,18 +56,24 @@ table {
   left: 10%;
   margin: 20px auto;
   overflow-y: scroll;
+  inline-size: 50px;
   position: static;
   width: 80%;
 }
 
 thead th {
-  background: #88ccf1;
-  color: #fff;
+  background: teal;
+  color: white;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
 
 tr {
@@ -73,14 +90,15 @@ td {
   padding: 20px;
   text-align: left;
   width: 33.3333%;
+  overflow-wrap: break-word;
 }
 
-.search {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  color: #aaa;
-  padding: 20px;
-  margin: 50px auto 0px auto;
-  width: 77%;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
